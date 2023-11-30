@@ -43,6 +43,7 @@ const App = () => {
 			id: 2,
 			name: 'password',
 			type: 'password',
+			autoComplete: 'on',
 			placeholder: 'Пароль',
 			// errorMessage:
 			// 	'Пароль должен содержать от 8-20 прописныхи строчных букв и цифр!',
@@ -54,6 +55,7 @@ const App = () => {
 			id: 3,
 			name: 'confirmPassword',
 			type: 'password',
+			autoComplete: 'on',
 			placeholder: 'Повторите пароль',
 			// errorMessage: 'Пароль не совпадает!',
 			label: 'Повтор пароля',
